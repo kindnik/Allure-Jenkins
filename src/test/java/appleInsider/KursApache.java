@@ -10,7 +10,7 @@ public class KursApache {
     public KursApache() {
     }
 
-    SelenideElement buttonЗаписаться_курс = $x("//div[@class='course-detail__offer']//span[text()='Записаться на курс']");
+    SelenideElement buttonЗаписаться_курс = $x("//div[@class='course-detail__offer']//span[text()='Записаться на курс2222']");
 
     protected Записаться_на_курс clickButton() {
         buttonЗаписаться_курс.click();
