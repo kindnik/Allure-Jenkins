@@ -12,7 +12,7 @@ public class SearchPage {
     public SearchPage() {
     }
 
-    private final SelenideElement kurs =$x("//a[text()='Java'][@class='search-phrase__linkQQQ']");
+    private final SelenideElement kurs =$x("//a[text()='Java'][@class='search-phrase__link']");
 
     protected Description searchKurs() {
     //    kurs.shouldBe(Condition.visible).click();
