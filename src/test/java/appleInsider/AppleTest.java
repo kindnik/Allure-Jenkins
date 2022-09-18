@@ -28,7 +28,7 @@ public class AppleTest extends BaseSelenideTest {
                 .clickButton()
                 .filNewData(ФИО, "Ошурков Никита Юрьевич")
                 .filNewData(КОМПАНИЯ, "Моя Компания мечты")
-                .filNewData(MAIL, "Компания2@mail")
+                .filNewData(MAIL, "Компания25@mail")
                 .filNewData(ТЕЛЕФОН, "89990001485")
                 .filNewData(ГОРОД, "Санкт-Петербург")
                 .fieldRole();
